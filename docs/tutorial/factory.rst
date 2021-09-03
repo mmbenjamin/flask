@@ -67,6 +67,9 @@ directory should be treated as a package.
             return 'Hello, World!'
 
         return app
+     
+     # run the app
+     create_app
 
 ``create_app`` is the application factory function. You'll add to it
 later in the tutorial, but it already does a lot.
